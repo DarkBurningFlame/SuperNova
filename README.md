@@ -1,4 +1,4 @@
-SuperNova is a fully featured and customisable **ClassiCube Server Software** based on MCGalaxy, which is based onMCForge/MCLawl.
+SuperNova is a fully featured and customisable **ClassiCube Server Software** based on MCGalaxy, which is based on MCForge/MCLawl.
 
 **Setup**
 -----------------
