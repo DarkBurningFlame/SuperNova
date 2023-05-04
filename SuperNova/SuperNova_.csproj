@@ -30,7 +30,7 @@
     <NoStdLib>False</NoStdLib>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
     <IntermediateOutputPath>..\obj\$(Configuration)\</IntermediateOutputPath>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -289,6 +289,7 @@
     <Compile Include="Commands\Information\CmdClones.cs" />
     <Compile Include="Commands\Information\CmdCommands.cs" />
     <Compile Include="Commands\Information\CmdFaq.cs" />
+    <Compile Include="Commands\Information\CmdHasirc2.cs" />
     <Compile Include="Commands\Information\CmdHasirc1.cs" />
     <Compile Include="Commands\Information\CmdHasirc.cs" />
     <Compile Include="Commands\Information\CmdHelp.cs" />
@@ -633,6 +634,21 @@
     <Compile Include="Modules\Awards\AwardsList.cs" />
     <Compile Include="Modules\Moderation\Notes\CmdNotes.cs" />
     <Compile Include="Modules\Moderation\Notes\NotesPlugin.cs" />
+    <Compile Include="Modules\Relay2\BotControllersCmd2.cs" />
+    <Compile Include="Modules\Relay2\Discord3\DiscordApiClient3.cs" />
+    <Compile Include="Modules\Relay2\Discord3\DiscordBot3.cs" />
+    <Compile Include="Modules\Relay2\Discord3\DiscordPlugin3.cs" />
+    <Compile Include="Modules\Relay2\Discord3\DiscordWebsocket3.cs" />
+    <Compile Include="Modules\Relay2\Discord2\DiscordApiClient2.cs" />
+    <Compile Include="Modules\Relay2\Discord2\DiscordBot2.cs" />
+    <Compile Include="Modules\Relay2\Discord2\DiscordPlugin2.cs" />
+    <Compile Include="Modules\Relay2\Discord2\DiscordWebsocket2.cs" />
+    <Compile Include="Modules\Relay2\IRC2\IRCBot2.cs" />
+    <Compile Include="Modules\Relay2\IRC2\IRCNickList2.cs" />
+    <Compile Include="Modules\Relay2\IRC2\IRCPlugin2.cs" />
+    <Compile Include="Modules\Relay2\RelayBot2.cs" />
+    <Compile Include="Modules\Relay2\RelayBotCmd2.cs" />
+    <Compile Include="Modules\Relay2\RelayBotSender2.cs" />
     <Compile Include="Modules\Relay1\BotControllersCmd1.cs" />
     <Compile Include="Modules\Relay\BotControllersCmd.cs" />
     <Compile Include="Modules\Relay1\Discord1\DiscordApiClient1.cs" />
