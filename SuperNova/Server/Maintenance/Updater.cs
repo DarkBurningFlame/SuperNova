@@ -28,7 +28,7 @@ namespace SuperNova {
     public static class Updater {
         
         public static string SourceURL = "https://github.com/RandomStrangers/SuperNova/";
-        public const string BaseURL    = "https://raw.githubusercontent.com/RandomStrangers/SuperNova/master/";
+        public const string BaseURL    = "https://github.com/RandomStrangers/SuperNova/blob/master/";
         public const string UploadsURL = "https://github.com/RandomStrangers/SuperNova/tree/master/Uploads";
         
         const string CurrentVersionURL = BaseURL + "Uploads/current_version.txt";

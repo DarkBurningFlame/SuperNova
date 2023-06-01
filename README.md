@@ -1,4 +1,4 @@
-MCGalaxy is a fully featured and customisable **ClassiCube Server Software** based on MCForge/MCLawl.
+SuperNova is a fully featured and customisable **ClassiCube Server Software** based on MCGalaxy 1.9.3.9, which is based on MCForge/MCLawl.
 
 **Setup**
 -----------------
